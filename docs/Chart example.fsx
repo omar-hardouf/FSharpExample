@@ -5,6 +5,9 @@
 printfn "Stock prices download example:"
 (***include-fsi-output***)
 
+printfn "Stock prices download example:"
+(***include-it-raw***)
+
 #load "YahooFinance.fsx"
 
 open YahooFinance
