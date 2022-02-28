@@ -16,7 +16,7 @@ let vti = YahooFinance.PriceHistory("vti") //
 open Plotly.NET
 
 vti
-|> List.map(fun x -> x-x.Date, x.AdjustedClose)
+|> List.map(fun x -> x.Date, x.AdjustedClose)
 |> Chart.Line
 |> GenericChart.toChartHTML
 
