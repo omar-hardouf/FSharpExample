@@ -2,3 +2,6 @@ tmp
 .fsdocs/cache
 .ionide/symbolCache.db
 docs/YahooFinance.fsx
+
+.fake
+.ionide
